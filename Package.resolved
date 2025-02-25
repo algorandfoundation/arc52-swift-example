@@ -10,15 +10,6 @@
       }
     },
     {
-      "identity" : "bip32-ed25519-swift",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/algorandfoundation/bip32-ed25519-swift.git",
-      "state" : {
-        "revision" : "8657e18c7249ab91eaabce21df303c19b73ed2b4",
-        "version" : "0.1.0-alpha"
-      }
-    },
-    {
       "identity" : "collectionconcurrencykit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/JohnSundell/CollectionConcurrencyKit.git",
@@ -122,8 +113,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-syntax.git",
       "state" : {
-        "revision" : "303e5c5c36d6a558407d364878df131c3546fad8",
-        "version" : "510.0.2"
+        "revision" : "2bc86522d115234d1f588efe2bcb4ce4be8f8b82",
+        "version" : "510.0.3"
       }
     },
     {
@@ -151,6 +142,15 @@
       "state" : {
         "revision" : "a853604c9e9a83ad9954c7e3d2a565273982471f",
         "version" : "7.0.2"
+      }
+    },
+    {
+      "identity" : "xhd-wallet-api-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/algorandfoundation/xHD-Wallet-API-swift",
+      "state" : {
+        "revision" : "e5577ca2df787cef16f415c6d3c3cdee7bfc2d75",
+        "version" : "0.2.0-alpha"
       }
     },
     {

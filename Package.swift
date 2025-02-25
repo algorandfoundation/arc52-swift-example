@@ -15,7 +15,7 @@ let package = Package(
             targets: ["arc52-swift-example"]),
      ],
     dependencies: [
-        .package(url: "https://github.com/algorandfoundation/bip32-ed25519-swift.git", exact: "0.1.0-alpha"),
+        .package(url: "https://github.com/algorandfoundation/xHD-Wallet-API-swift", exact: "0.2.0-alpha"),
         .package(url: "https://github.com/Electric-Coin-Company/MnemonicSwift.git", from: "2.2.4"),
     ],
     targets: [
@@ -24,7 +24,7 @@ let package = Package(
         .target(
             name: "arc52-swift-example",
             dependencies: [
-                .product(name: "bip32-ed25519-swift", package: "bip32-ed25519-swift"),
+                .product(name: "x-hd-wallet-api", package: "xHD-Wallet-API-swift"),
                 .product(name: "MnemonicSwift", package: "MnemonicSwift")]),
         .testTarget(
             name: "arc52-swift-exampleTests",
