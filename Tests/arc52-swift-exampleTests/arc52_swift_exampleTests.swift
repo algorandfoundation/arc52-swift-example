@@ -7,7 +7,9 @@ final class arc52_swift_exampleTests: XCTestCase {
         let wallet = try Arc52SwiftExample().wallet
         let publicKey = try wallet!.keyGen(context: KeyContext.Address, account: 0, change: 0, keyIndex: 0)
         print([UInt8](publicKey))
-        let publicKey2 = try wallet!.keyGen(context: KeyContext.Address, account: 0, change: 0, keyIndex: 100_000)
+        print(publicKey.base64EncodedString())
+        let publicKey2 = try wallet!.keyGen(context: KeyContext.Address, account: 0, change: 0, keyIndex: 1)
         print([UInt8](publicKey2))
+        print(publicKey2.base64EncodedString())
     }
 }
